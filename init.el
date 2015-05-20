@@ -4,16 +4,15 @@
 
 ;; Define package repositories
 (require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+			 ("marmalade" . "http://marmalade-repo.org/packages/")
+			 ("melpa-stable" . "http://melpa-stable.milkbox.net/packages/")))
+
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-
-;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
-;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
 
 
 ;; Load and activate emacs packages. Do this first so that the
@@ -34,6 +33,7 @@
     ;; makes handling lisp expressions much, much easier
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
+    
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
@@ -137,6 +137,7 @@
 
 ;; These customizations make editing a bit nicer.
 (load "editing.el")
+(load "smartparens-config.el")
 
 ;; Hard-to-categorize customizations
 (load "misc.el")
@@ -149,6 +150,9 @@
 (load "js.el")
 (load "markdown.el")
 (load "yaml.el")
+
+;; Miscellaneous
+(load "flame.el")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
