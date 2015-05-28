@@ -34,7 +34,6 @@
     ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
     paredit
     
-
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
     clojure-mode
@@ -75,6 +74,7 @@
     ;; solarized theme
     ;; https://github.com/bbatsov/solarized-emacs
     solarized-theme
+
 
     ;; yaml-mode
     ;; https://github.com/yoshiki/yaml-mode
@@ -153,9 +153,9 @@
 
 ;; Miscellaneous
 (load "flame.el")
+(load "irc.el")
 
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.

@@ -10,3 +10,5 @@ places
 projectile-bookmarks.eld
 projectile.cache
 elpa/
+eshell/history
+eshell/lastdir
