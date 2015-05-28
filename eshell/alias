@@ -1,1 +1,5 @@
 alias ff find-file $1
+alias d dired $1
+alias clear recenter 0
+alias la ls -lha $*
+alias ll ls -lh $*
