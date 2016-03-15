@@ -150,6 +150,7 @@
 (load "js.el")
 (load "markdown.el")
 (load "yaml.el")
+(load "html.el")
 
 ;; Miscellaneous
 (load "flame.el")
