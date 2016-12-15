@@ -82,6 +82,9 @@
     ;; smartparens editing modes
     smartparens
 
+    ;; tagedit
+    tagedit
+
     ;; yaml-mode
     ;; https://github.com/yoshiki/yaml-mode
     yaml-mode
@@ -156,7 +159,7 @@
 
 ;; Langauage-specific
 (load "clojure.el")
-(load "js.el")
+(load "js-settings.el")
 (load "markdown.el")
 (load "yaml.el")
 (load "html.el")
@@ -180,7 +183,7 @@
  '(foreground-color "#839496")
  '(package-selected-packages
    (quote
-    (yaml-mode solarized-theme smex smartparens rainbow-mode rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous expand-region exec-path-from-shell clojure-mode-extra-font-locking cider)))
+    (tagedit json-mode yaml-mode solarized-theme smex smartparens rainbow-mode rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous expand-region exec-path-from-shell clojure-mode-extra-font-locking cider)))
  '(safe-local-variable-values (quote ((c-indentation-style . bsd)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
