@@ -75,6 +75,8 @@
     ;; https://github.com/bbatsov/solarized-emacs
     solarized-theme
 
+    ;; smartparens editing modes
+    smartparens
 
     ;; yaml-mode
     ;; https://github.com/yoshiki/yaml-mode
@@ -169,6 +171,9 @@
    (quote
     ("7f1263c969f04a8e58f9441f4ba4d7fb1302243355cb9faecb55aec878a06ee9" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" default)))
  '(foreground-color "#839496")
+ '(package-selected-packages
+   (quote
+    (yaml-mode solarized-theme smex smartparens rainbow-mode rainbow-delimiters projectile paredit markdown-mode magit ido-ubiquitous expand-region exec-path-from-shell clojure-mode-extra-font-locking cider)))
  '(safe-local-variable-values (quote ((c-indentation-style . bsd)))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
