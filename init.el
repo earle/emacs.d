@@ -67,6 +67,10 @@
     rainbow-mode
     rainbow-delimiters
 
+    ;; restclient mode
+    ;; https://github.com/pashky/restclient.el
+    restclient
+
     ;; markdown mode
     ;; http://jblevins.org/projects/markdown-mode/
     markdown-mode
@@ -121,6 +125,9 @@
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
 (add-to-list 'load-path "~/.emacs.d/config")
+
+;; Misc Functions
+(load "misc-functions.el")
 
 ;; Adding and reassignment of global key bindings
 (load "key-bindings.el")
