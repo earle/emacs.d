@@ -9,6 +9,11 @@
 ;; Navigation
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "C-x <up>") 'windmove-up)
+(global-set-key (kbd "C-x <down>") 'windmove-down)
+(global-set-key (kbd "C-x <left>") 'windmove-left)
+(global-set-key (kbd "C-x <right>") 'windmove-right)
+
 
 ;; UI
 (global-set-key (kbd "s-t") '(lambda () (interactive)))
